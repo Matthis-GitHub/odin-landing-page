@@ -90,3 +90,60 @@ a,
   gap: 48px;
   padding: 75px 0;
 }
+
+.content-container {
+  padding-bottom: 100px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.image-card {
+  width: 150px;
+}
+
+.image-placeholder {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+}
+
+.image-subtext {
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.quote {
+  width: 800px;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  align-self: center;
+}
+
+.quote-author {
+  width: 800px;
+  font-weight: bold;
+  text-align: end;
+}
